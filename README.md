@@ -1,4 +1,4 @@
-This repo consists the scripts and notebooks related to our ACL 2025 main paper: 
+This repo consists the scripts and notebooks related to our EMNLP 2025 main paper: 
 ## Tokenization and Representation Biases in Multilingual Models on Dialectal NLP Tasks 
 
 Datasets
