@@ -35,7 +35,4 @@ Intrinsic Analysis
 To evaluate the Tokenization Parity (TP), we adapted the code from https://github.com/AleksandarPetrov/tokenization-fairness.
 To evaluate the Information Parity (IP), we adapted codes from https://github.com/tsalex1992/Information-Parity
 
-* The colab notebooks consists of the tokenizer analysis including vocabulary, parity etc. as mentioned in the paper.
-  * The code can be easily enhanced to analyze any language within the FLORES dataset.
-
 
