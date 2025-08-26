@@ -3,7 +3,7 @@ import torch
 import pandas as pd
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
-os.environ["HF_TOKEN"] = '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'
+os.environ["HF_TOKEN"] = ''
 # Define log loss calculator
 class ConditionalEntropyRanker:
     @staticmethod
