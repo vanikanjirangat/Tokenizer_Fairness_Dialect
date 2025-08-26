@@ -15,7 +15,7 @@ from transformers import (
 from trl import SFTTrainer
 from transformers.utils import is_flash_attn_2_available
 from prompts_ILI import get_di_data_for_ft
-os.environ["HF_TOKEN"] = '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'
+os.environ["HF_TOKEN"] = ''
 os.environ["WANDB_PROJECT"] = "Dialect Identifications"  # name your W&B project
 os.environ["WANDB_LOG_MODEL"] = "checkpoint"  # log all model checkpoints
 def get_specific_layer_names(model):
