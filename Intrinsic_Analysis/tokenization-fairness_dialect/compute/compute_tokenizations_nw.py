@@ -11,7 +11,7 @@ import json
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 
 DATASET_PATH = "../flores200_dataset"
-os.environ["HF_TOKEN"] = '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'
+os.environ["HF_TOKEN"] = ''
 # get all files in the dataset:
 langs = [f.replace(".dev", "") for f in os.listdir(os.path.join(DATASET_PATH, "dev")) if os.path.isfile(f"{DATASET_PATH}/dev/{f}")]
 
