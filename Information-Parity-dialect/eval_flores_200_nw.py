@@ -8,7 +8,7 @@ import json
 import datetime
 import os
 from datasets import Dataset
-os.environ["HF_TOKEN"] = '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'
+os.environ["HF_TOKEN"] = ''
 # Define language mappings
 lang_code_to_flores_key = {
     "en": "eng_Latn",# reference
