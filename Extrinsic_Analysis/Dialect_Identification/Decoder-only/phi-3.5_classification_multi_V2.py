@@ -28,7 +28,7 @@ from sklearn.metrics import (
 from trl import SFTTrainer
 from transformers.utils import is_flash_attn_2_available
 from prompts_ES import get_di_data_ML_FT
-os.environ["HF_TOKEN"] = ''
+os.environ["HF_TOKEN"] = ' '
 os.environ["WANDB_PROJECT"] = "Dialect Identifications"  # name your W&B project
 os.environ["WANDB_LOG_MODEL"] = "checkpoint"  # log all model checkpoints
 def get_specific_layer_names(model):
