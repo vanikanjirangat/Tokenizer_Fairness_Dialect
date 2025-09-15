@@ -5,6 +5,7 @@ Datasets
 ============
 Intrinsic Analysis
 ------------
+Intrinsic analysis was done using Tokenization Parity and Information Parity metrics on FLORES-200 parallel dataset
 
 Extrinsic Analysis
 ------------
