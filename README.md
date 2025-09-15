@@ -5,7 +5,11 @@ Datasets
 ============
 Intrinsic Analysis
 ------------
-Intrinsic analysis was done using Tokenization Parity and Information Parity metrics on FLORES-200 parallel dataset
+Intrinsic analysis was done using Tokenization Parity and Information Parity metrics on FLORES-200 parallel dataset.
+
+To evaluate the Tokenization Parity (TP), we adapted the code from https://github.com/AleksandarPetrov/tokenization-fairness.
+
+To evaluate the Information Parity (IP), we adapted codes from https://github.com/tsalex1992/Information-Parity
 
 Extrinsic Analysis
 ------------
@@ -19,21 +23,11 @@ Extrinsic Analysis
    > From DialectBench dataset: https://github.com/ffaisal93/DialectBench/tree/main
 
  
-
-
-Codes
-============
-Extrinsic Analysis
-------------
-
 * The folder consists of the scripts used to fine-tune the models for downstream tasks
-  * You can use a shell script or run for instance, in dialect classification/, python llama3_classification_hyper.py --lora_r 8 --epochs 8 --dropout 0.1
+  * You can run for instance: in dialect classification/, python llama3_classification_hyper.py --lora_r 8 --epochs 8 --dropout 0.1
   * For inference: python llama3_classification_inference.py --experiment OUTPUT-PATH
  
-Intrinsic Analysis
-------------
 
-To evaluate the Tokenization Parity (TP), we adapted the code from https://github.com/AleksandarPetrov/tokenization-fairness.
-To evaluate the Information Parity (IP), we adapted codes from https://github.com/tsalex1992/Information-Parity
+
 
 
