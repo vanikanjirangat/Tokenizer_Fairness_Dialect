@@ -1,8 +1,6 @@
 This repo consists the scripts and notebooks related to our EMNLP 2025 main paper: 
 ## Tokenization and Representation Biases in Multilingual Models on Dialectal NLP Tasks 
 
-Datasets
-============
 Intrinsic Analysis
 ------------
 Intrinsic analysis was done using Tokenization Parity and Information Parity metrics on FLORES-200 parallel dataset.
