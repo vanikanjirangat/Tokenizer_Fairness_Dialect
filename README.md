@@ -37,7 +37,7 @@ Intrinsic analysis was performed using **Tokenization Parity (TP)** and **Inform
   Run the dialect classification script with custom hyperparameters:
 
 ```bash
-python llama3_classification_hyper.py --lora_r 8 --epochs 8 --dropout 0.1'''
+python llama3_classification_hyper.py --lora_r 8 --epochs 8 --dropout 0.1
 
 
 python llama3_classification_inference.py --experiment OUTPUT-PATH
